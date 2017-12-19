@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_mainLayout"
+    tools:context="com.jie.demo_01.MainActivity">
+    <com.jie.demo_01.TouchPullView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/touchView"
+        app:pContentDrawable="@drawable/circle_content"
+        app:pContentDrawableMargin="3dp"
+        />
+</LinearLayout>
